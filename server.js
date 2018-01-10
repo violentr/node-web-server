@@ -18,9 +18,10 @@ app.use((req, res, next) => {
   next();
 })
 
-app.use((req, res, next) => {
-  res.render('maintenance.hbs')
-})
+//uncomment code below to put in maintenance mode
+//app.use((req, res, next) => {
+  //res.render('maintenance.hbs')
+//})
 
 app.use(express.static(__dirname + '/public'))
 
