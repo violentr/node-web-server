@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha **/*.test.js"
+    "test": "mocha **/*.test.js",
+    "start": "nodemon server"
   },
   "author": "Deniss Bohanovs",
   "license": "ISC",
